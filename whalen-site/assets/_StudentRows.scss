@@ -1,0 +1,139 @@
+.container {
+  margin-top: 64px;
+}
+.v-row {
+  margin: 3rem auto;
+  height: auto;
+  width: 100%;
+}
+
+#will {
+  background-image: url("../assets/Fire/mock3-min.jpg");
+  height: 60vh;
+  border-top: none;
+  background-size: cover;
+  background-position: center;
+}
+#jang {
+  background-image: url("../assets/Jang/mock1-min.jpg");
+  height: 60vh;
+
+  background-size: cover;
+  background-position: center;
+  border-left: none;
+  //border-right: none;
+}
+#loop {
+  background-image: url("../assets/loop/mock4.jpg");
+  height: 60vh;
+
+  background-size: cover;
+  background-position: center;
+}
+#yu {
+  background-image: url("../assets/samples/yu2.png");
+  height: 60vh;
+
+  background-size: cover;
+  background-position: center;
+}
+
+#poker {
+  background-image: url("../assets/samples/poker1.png");
+  height: 60vh;
+
+  background-size: cover;
+  background-position: center;
+}
+#choi {
+  background-image: url("../assets/samples/choi1.jpg");
+  height: 60vh;
+
+  background-size: cover;
+  background-position: center;
+}
+#kai {
+  background-image: url("../assets/samples/kai1.jpg");
+  height: 60vh;
+
+  background-size: cover;
+  background-position: center;
+}
+#pkmn {
+  background-image: url("../assets/samples/pkmnduel.png");
+  height: 60vh;
+
+  background-size: cover;
+  background-position: center;
+}
+#bao {
+  background-image: url("../assets/samples/bao1.jpg");
+  height: 60vh;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.cols {
+  //border: 3px solid black;
+  transition: all 0.3s;
+  padding: 0;
+  //margin: 2rem auto;
+}
+.cols:hover {
+  transform: scale(1);
+}
+
+.v-card--reveal {
+  align-items: center;
+  text-align: center;
+  bottom: 0;
+  justify-content: center;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+  font-size: 3rem;
+}
+.reveal-text {
+}
+.SR2-Text {
+  font-size: 1.5rem;
+}
+.SR3 {
+  font-size: 2rem;
+}
+@media screen and (max-width: 960px) {
+  .cols {
+    margin: 0 auto;
+    border: none;
+  }
+
+  #jang,
+  #will,
+  #loop,
+  #yu,
+  #choi,
+  #poker,
+  #bao,
+  #kai,
+  #pkmn {
+    height: 25vh;
+    background-size: cover;
+    margin: 0.5rem auto;
+  }
+  .container {
+    margin-top: 3px;
+  }
+  .v-card--reveal {
+    font-size: 1.5rem !important;
+  }
+  .SR2-Text {
+    font-size: 1rem;
+  }
+  .SR3 {
+    font-size: 1rem;
+  }
+}
+.btn {
+  opacity: 1 !important;
+}

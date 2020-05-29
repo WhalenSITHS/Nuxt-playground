@@ -1,0 +1,14 @@
+//$header-font: "Prompt", sans-serif;
+$sub-header-font: "Lora", serif;
+//$body-font-family: "Prompt", sans-serif;
+@heading-font-family: "Lora", serif;
+$header-font: "Arvo", serif;
+$body-font-family: "Arvo", serif;
+.v-btn--active.no-active::before {
+  display: none;
+}
+.nuxt-link,
+.nuxt-link:visited,
+.nuxt-link:link {
+  text-decoration: none;
+}
