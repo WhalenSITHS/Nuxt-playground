@@ -20,7 +20,7 @@ export default {};
       rgba(66, 165, 246, 0.5),
       rgba(5, 11, 31, 0.5)
     ),
-    url("../assets/geo.jpg");
+    url("../assets/geo-ipad-min.jpg");
   background-size: cover;
   height: 90vh;
   color: white;
