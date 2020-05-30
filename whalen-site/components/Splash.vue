@@ -32,6 +32,7 @@ export default {};
 
 h1 {
   font-size: 3rem;
+
   text-transform: uppercase;
   margin: 1rem 0;
 }
