@@ -61,7 +61,8 @@
             </v-col>
           </v-hover>
         </v-row>
-        <StudentRowTwo />
+        <v-lazy> <StudentRowTwo /></v-lazy>
+
         <v-lazy v-model="isActive">
           <StudentRowThree />
         </v-lazy>
