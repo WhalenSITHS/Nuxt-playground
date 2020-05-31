@@ -10,9 +10,9 @@
               style="height: 100%;"
             >
               'Pokemon Duel' By William Anderson Class of 2020
-              <v-btn class="btn" active-class="no-active" :to="{ name: 'Home' }"
-                >Learn More</v-btn
-              >
+              <nuxt-link class="nuxt-link" to="/Pokemon">
+                <v-btn class="btn" active-class="no-active">Learn More</v-btn>
+              </nuxt-link>
             </div>
           </v-expand-transition>
         </v-col>
@@ -27,12 +27,10 @@
               class="d-flex transition-fast-in-fast-out v-card--reveal green darken-2 v-card white--text flex-column"
               style="height: 100%;"
             >
-              <span class="SR3"
-                >"What Lies Below" By Kai Tong Gao Class of 2020</span
-              >
-              <v-btn class="btn" active-class="no-active" :to="{ name: 'Home' }"
-                >Learn More</v-btn
-              >
+              <span class="SR3">"What Lies Below" By Kai Tong Gao Class of 2020</span>
+              <nuxt-link class="nuxt-link" to="/Whatliesbelow">
+                <v-btn class="btn" active-class="no-active">Learn More</v-btn>
+              </nuxt-link>
             </div>
           </v-expand-transition>
         </v-col>
@@ -47,9 +45,9 @@
               style="height: 100%;"
             >
               <span class="SR3">"Japan" By Bao Bao Chen Class of 2021</span>
-              <v-btn class="btn" active-class="no-active" :to="{ name: 'Home' }"
-                >Learn More</v-btn
-              >
+              <nuxt-link class="nuxt-link" to="/Japan">
+                <v-btn class="btn" active-class="no-active">Learn More</v-btn>
+              </nuxt-link>
             </div>
           </v-expand-transition>
         </v-col>

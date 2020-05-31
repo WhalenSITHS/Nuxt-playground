@@ -42,10 +42,10 @@
 export default {
   methods: {
     onClickGit() {
-      location.href = `https://github.com/melkadze/jack-twentyone`;
+      location.href = `https://github.com/kaly955/Tokyo`;
     },
     onClickSite() {
-      location.href = `https://melkadze.com/jack-twentyone/dist/index.html`;
+      location.href = `https://weebtime.netlify.app/#`;
     }
   }
 };
