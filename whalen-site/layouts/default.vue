@@ -7,58 +7,36 @@
       <v-spacer></v-spacer>
 
       <nuxt-link class="nuxt-link" to="/">
-        <v-btn outlined class="btn" active-class="no-active"
-          >Home
-        </v-btn></nuxt-link
-      >
+        <v-btn outlined class="btn" active-class="no-active">Home</v-btn>
+      </nuxt-link>
 
-      <nuxt-link class="nuxt-link" to="/studentwork"
-        ><v-btn outlined class="btn" active-class="no-active"
-          >Student Work</v-btn
-        ></nuxt-link
-      >
+      <nuxt-link class="nuxt-link" to="/studentwork">
+        <v-btn outlined class="btn" active-class="no-active">Student Work</v-btn>
+      </nuxt-link>
       <v-btn outlined class="btn" active-class="no-active">Resources</v-btn>
-      <v-btn outlined class="btn" active-class="no-active"
-        >What I'm Learning</v-btn
-      >
+      <v-btn outlined class="btn" active-class="no-active">What I'm Learning</v-btn>
       <v-btn outlined active-class="no-active" class="btn">Curriculum</v-btn>
     </v-app-bar>
     <v-app-bar class="hidden-md-and-up">
-      <v-app-bar-nav-icon
-        @click="drawer = !drawer"
-        class="black--text"
-      ></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = !drawer" class="black--text"></v-app-bar-nav-icon>
     </v-app-bar>
-    <v-navigation-drawer
-      app
-      v-model="drawer"
-      class="secondary my-nav"
-      width="80%"
-    >
+    <v-navigation-drawer app v-model="drawer" class="secondary my-nav" width="80%">
       <v-list>
         <v-list-item-group class="test" color="primary">
           <v-list-item class="white my-4">
             <nuxt-link class="route nuxt-link" to="/">Home</nuxt-link>
           </v-list-item>
           <v-list-item class="white my-4">
-            <nuxt-link class="route nuxt-link" to="/studentwork"
-              >Student Work</nuxt-link
-            >
+            <nuxt-link class="route nuxt-link" to="/studentwork">Student Work</nuxt-link>
           </v-list-item>
           <v-list-item class="white my-4">
-            <nuxt-link class="route nuxt-link" to="/studentwork"
-              >Resources</nuxt-link
-            >
+            <nuxt-link class="route nuxt-link" to="/studentwork">Resources</nuxt-link>
           </v-list-item>
           <v-list-item class="white my-4">
-            <nuxt-link class="route nuxt-link" to="/studentwork"
-              >What I'm Learning</nuxt-link
-            >
+            <nuxt-link class="route nuxt-link" to="/studentwork">What I'm Learning</nuxt-link>
           </v-list-item>
           <v-list-item class="white my-4">
-            <nuxt-link class="route nuxt-link" to="/studentwork"
-              >Curriculum</nuxt-link
-            >
+            <nuxt-link class="route nuxt-link" to="/studentwork">Curriculum</nuxt-link>
           </v-list-item>
         </v-list-item-group>
       </v-list>
