@@ -28,7 +28,7 @@
               style="height: 100%;"
             >
               <span class="SR2-Text">"Black Jack" By Nick Melkadze Class of 2020</span>
-              <nuxt-link class="nuxt-link" to="/fireemblem">
+              <nuxt-link class="nuxt-link" to="/Blackjack">
                 <v-btn class="btn" active-class="no-active">Learn More</v-btn>
               </nuxt-link>
             </div>
@@ -45,7 +45,7 @@
               style="height: 100%;"
             >
               <span class="SR2-Text">"Cyberpunk Tokyo" By Kelly Yu Class of 2021</span>
-              <nuxt-link class="nuxt-link" to="/fireemblem">
+              <nuxt-link class="nuxt-link" to="/Cyberpunk">
                 <v-btn class="btn" active-class="no-active">Learn More</v-btn>
               </nuxt-link>
             </div>
