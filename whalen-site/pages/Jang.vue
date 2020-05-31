@@ -80,7 +80,7 @@ h2 {
   display: inline-block;
   border-bottom: 2px solid #33691e;
   font-size: 4rem;
-  font-family: "Lora", serif;
+  font-family: "Arvo", serif;
   text-transform: uppercase;
   margin: 6rem 1rem auto;
   text-align: center;

@@ -57,7 +57,7 @@ h2 {
   display: inline-block;
   border-bottom: 2px solid #d32f2f;
   font-size: 4rem;
-  font-family: "Lora", serif;
+  font-family: "Arvo", serif;
   text-transform: uppercase;
   margin: 6rem 2rem auto;
   text-align: center;
