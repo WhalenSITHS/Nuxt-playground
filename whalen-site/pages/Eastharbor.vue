@@ -91,7 +91,7 @@ li {
   text-align: center;
   margin: 0 auto;
 }
-@media screen and(max-width: 960px;) {
+@media screen and(max-width: 960px) {
   .card-text {
     widows: 100%;
   }
