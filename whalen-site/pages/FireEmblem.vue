@@ -52,10 +52,10 @@
 export default {
   methods: {
     onClickGit() {
-      location.href = `https://github.com/melkadze/class-planner`;
+      location.href = `https://github.com/William-Anderson2020/Full-Stack-Project`;
     },
     onClickSite() {
-      location.href = `https://www.planwithloop.com/auth/login`;
+      location.href = `https://full-stack-game.herokuapp.com/login`;
     }
   }
 };

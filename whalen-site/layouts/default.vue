@@ -18,7 +18,13 @@
       <v-btn outlined active-class="no-active" class="btn">Curriculum</v-btn>
     </v-app-bar>
     <v-app-bar class="hidden-md-and-up">
-      <v-app-bar-nav-icon @click="drawer = !drawer" class="black--text"></v-app-bar-nav-icon>
+      <v-btn icon>
+        <img
+          src="../static/iconfinder_menu-alt_134216.svg"
+          @click="drawer = !drawer"
+          class="black--text icon"
+        />
+      </v-btn>
     </v-app-bar>
     <v-navigation-drawer app v-model="drawer" class="secondary my-nav" width="80%">
       <v-list>
@@ -56,6 +62,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.icon {
+  height: 2rem;
+}
 .logo {
   height: 2.2rem;
 }
