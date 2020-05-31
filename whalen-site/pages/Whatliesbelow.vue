@@ -100,5 +100,8 @@ li {
   .card-text {
     width: 100%;
   }
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 </style>
