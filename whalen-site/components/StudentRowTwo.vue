@@ -9,14 +9,10 @@
               class="d-flex transition-fast-in-fast-out red darken-2 v-card--reveal white--text flex-column"
               style="height: 100%;"
             >
-              <span class="SR2-Text"
-                >"East Harbor" By Karen Choi Class of 2021</span
-              >
-              <nuxt-link class="nuxt-link" to="/fireemblem"
-                ><v-btn class="btn" active-class="no-active"
-                  >Learn More</v-btn
-                ></nuxt-link
-              >
+              <span class="SR2-Text">"East Harbor" By Karen Choi Class of 2021</span>
+              <nuxt-link class="nuxt-link" to="/Eastharbor">
+                <v-btn class="btn" active-class="no-active">Learn More</v-btn>
+              </nuxt-link>
             </div>
           </v-expand-transition>
         </v-col>
@@ -31,14 +27,10 @@
               class="d-flex transition-fast-in-fast-out v-card--reveal green darken-2 v-card white--text flex-column"
               style="height: 100%;"
             >
-              <span class="SR2-Text"
-                >"Black Jack" By Nick Melkadze Class of 2020</span
-              >
-              <nuxt-link class="nuxt-link" to="/fireemblem"
-                ><v-btn class="btn" active-class="no-active"
-                  >Learn More</v-btn
-                ></nuxt-link
-              >
+              <span class="SR2-Text">"Black Jack" By Nick Melkadze Class of 2020</span>
+              <nuxt-link class="nuxt-link" to="/fireemblem">
+                <v-btn class="btn" active-class="no-active">Learn More</v-btn>
+              </nuxt-link>
             </div>
           </v-expand-transition>
         </v-col>
@@ -52,14 +44,10 @@
               class="d-flex transition-fast-in-fast-out blue darken-2 v-card--reveal white--text flex-column"
               style="height: 100%;"
             >
-              <span class="SR2-Text"
-                >"Cyberpunk Tokyo" By Kelly Yu Class of 2021</span
-              >
-              <nuxt-link class="nuxt-link" to="/fireemblem"
-                ><v-btn class="btn" active-class="no-active"
-                  >Learn More</v-btn
-                ></nuxt-link
-              >
+              <span class="SR2-Text">"Cyberpunk Tokyo" By Kelly Yu Class of 2021</span>
+              <nuxt-link class="nuxt-link" to="/fireemblem">
+                <v-btn class="btn" active-class="no-active">Learn More</v-btn>
+              </nuxt-link>
             </div>
           </v-expand-transition>
         </v-col>
