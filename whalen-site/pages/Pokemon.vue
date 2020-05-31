@@ -47,10 +47,10 @@
 export default {
   methods: {
     onClickGit() {
-      location.href = `https://github.com/melkadze/jack-twentyone`;
+      location.href = `https://github.com/William-Anderson2020/Pokemon-Battle-Sim`;
     },
     onClickSite() {
-      location.href = `https://melkadze.com/jack-twentyone/dist/index.html`;
+      location.href = `https://pkmnsim.netlify.app/`;
     }
   }
 };

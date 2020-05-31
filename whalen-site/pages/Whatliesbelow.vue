@@ -50,7 +50,7 @@ export default {
       location.href = `https://github.com/melkadze/jack-twentyone`;
     },
     onClickSite() {
-      location.href = `https://melkadze.com/jack-twentyone/dist/index.html`;
+      location.href = `https://kaisforestblog.netlify.app/`;
     }
   }
 };
