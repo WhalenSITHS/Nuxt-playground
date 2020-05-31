@@ -93,7 +93,7 @@ li {
 }
 @media screen and(max-width: 960px) {
   .card-text {
-    widows: 100%;
+    width: 100%;
   }
 }
 </style>
