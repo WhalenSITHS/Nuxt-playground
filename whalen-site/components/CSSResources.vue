@@ -11,7 +11,7 @@
           <v-card-text
             class="card-text"
           >MDN Should be your first stop to troubleshoot or look up CSS or JS information.</v-card-text>
-          <v-btn @click="onClickMDN()" text color="#03A9F4">Download</v-btn>
+          <v-btn @click="onClickMDN()" text color="#03A9F4">Check Them Out</v-btn>
         </v-card>
       </v-col>
 
