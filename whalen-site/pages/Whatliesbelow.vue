@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <h2>What Lies Below</h2>
+    <h2>Kai's Forest Blog</h2>
     <v-container>
       <v-row class="row">
         <v-col cols="12" md="6" class="text-center">
@@ -26,9 +26,9 @@
                 text
                 color="light-green darken-4"
                 active-class="no-active"
-                @click="onClickSite"
+                @click="onClickSite()"
               >Visit</v-btn>
-              <v-btn @click="onClickGit" text color="light-green darken-4">Github</v-btn>
+              <v-btn @click="onClickGit()" text color="light-green darken-4">Github</v-btn>
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
@@ -46,11 +46,11 @@
 <script>
 export default {
   methods: {
-    onClickGit() {
-      location.href = `https://github.com/melkadze/jack-twentyone`;
+    onClickSite: function() {
+      window.open("https://kaisforestblog.netlify.app/", "_blank");
     },
-    onClickSite() {
-      location.href = `https://kaisforestblog.netlify.app/`;
+    onClickGit: function() {
+      window.open("https://github.com/kaitonggao/KaisForestBlog", "_blank");
     }
   }
 };

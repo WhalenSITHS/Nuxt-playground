@@ -32,8 +32,13 @@
 
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn text color="blue accent-2" active-class="no-active" @click="onClickSite">Visit</v-btn>
-              <v-btn @click="onClickGit" text color="blue accent-2">Github</v-btn>
+              <v-btn
+                text
+                color="blue accent-2"
+                active-class="no-active"
+                @click="onClickSite()"
+              >Visit</v-btn>
+              <v-btn @click="onClickGit()" text color="blue accent-2">Github</v-btn>
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
@@ -51,11 +56,14 @@
 <script>
 export default {
   methods: {
-    onClickGit() {
-      location.href = `https://github.com/William-Anderson2020/Full-Stack-Project`;
+    onClickSite: function() {
+      window.open("https://full-stack-game.herokuapp.com/login", "_blank");
     },
-    onClickSite() {
-      location.href = `https://full-stack-game.herokuapp.com/login`;
+    onClickGit: function() {
+      window.open(
+        "https://github.com/William-Anderson2020/Full-Stack-Project",
+        "_blank"
+      );
     }
   }
 };

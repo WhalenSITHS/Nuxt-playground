@@ -22,8 +22,8 @@
 
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn text color="red darken-2" active-class="no-active" @click="onClickSite">Visit</v-btn>
-              <v-btn @click="onClickGit" text color="red darken-2">Github</v-btn>
+              <v-btn text color="red darken-2" active-class="no-active" @click="onClickSite()">Visit</v-btn>
+              <v-btn @click="onClickGit()" text color="red darken-2">Github</v-btn>
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
@@ -41,11 +41,14 @@
 <script>
 export default {
   methods: {
-    onClickGit() {
-      location.href = `https://github.com/cdugo/jang-foodcart`;
+    onClickSite: function() {
+      window.open("https://eastharbor.netlify.app/", "_blank");
     },
-    onClickSite() {
-      location.href = `https://eastharbor.netlify.app/`;
+    onClickGit: function() {
+      window.open(
+        "https://github.com/staten-island-tech/html-css-mastery-project-repository-choikaren",
+        "_blank"
+      );
     }
   }
 };

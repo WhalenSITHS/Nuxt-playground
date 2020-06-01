@@ -27,7 +27,7 @@
               class="d-flex transition-fast-in-fast-out v-card--reveal green darken-2 v-card white--text flex-column"
               style="height: 100%;"
             >
-              <span class="SR3">"What Lies Below" By Kai Tong Gao Class of 2020</span>
+              <span class="SR3">"Kai's Forest Blog" By Kai Tong Gao Class of 2020</span>
               <nuxt-link class="nuxt-link" to="/Whatliesbelow">
                 <v-btn class="btn" active-class="no-active">Learn More</v-btn>
               </nuxt-link>

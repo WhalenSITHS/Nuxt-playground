@@ -26,9 +26,9 @@
                 text
                 color="orange darken-2"
                 active-class="no-active"
-                @click="onClickSite"
+                @click="onClickSite()"
               >Visit</v-btn>
-              <v-btn @click="onClickGit" text color="orange darken-2">Github</v-btn>
+              <v-btn @click="onClickGit()" text color="orange darken-2">Github</v-btn>
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
@@ -46,11 +46,14 @@
 <script>
 export default {
   methods: {
-    onClickGit() {
-      location.href = `https://github.com/William-Anderson2020/Pokemon-Battle-Sim`;
+    onClickSite: function() {
+      window.open("https://pkmnsim.netlify.app/", "_blank");
     },
-    onClickSite() {
-      location.href = `https://pkmnsim.netlify.app/`;
+    onClickGit: function() {
+      window.open(
+        "https://github.com/William-Anderson2020/Pokemon-Battle-Sim",
+        "_blank"
+      );
     }
   }
 };

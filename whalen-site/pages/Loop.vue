@@ -47,9 +47,9 @@
                 text
                 color="deep-purple accent-4"
                 active-class="no-active"
-                @click="onClickSite"
+                @click="onClickSite()"
               >Visit</v-btn>
-              <v-btn @click="onClickGit" text color="deep-purple accent-4">Github</v-btn>
+              <v-btn @click="onClickGit()" text color="deep-purple accent-4">Github</v-btn>
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
@@ -67,11 +67,11 @@
 <script>
 export default {
   methods: {
-    onClickGit() {
-      location.href = `https://github.com/melkadze/class-planner`;
+    onClickSite: function() {
+      window.open("https://www.planwithloop.com/auth/login", "_blank");
     },
-    onClickSite() {
-      location.href = `https://www.planwithloop.com/auth/login`;
+    onClickGit: function() {
+      window.open("https://github.com/melkadze/class-planner", "_blank");
     }
   }
 };

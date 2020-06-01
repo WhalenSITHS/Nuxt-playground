@@ -22,8 +22,13 @@
 
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn text color="pink darken-2" active-class="no-active" @click="onClickSite">Visit</v-btn>
-              <v-btn @click="onClickGit" text color="pink darken-2">Github</v-btn>
+              <v-btn
+                text
+                color="pink darken-2"
+                active-class="no-active"
+                @click="onClickSite()"
+              >Visit</v-btn>
+              <v-btn @click="onClickGit()" text color="pink darken-2">Github</v-btn>
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
@@ -41,11 +46,14 @@
 <script>
 export default {
   methods: {
-    onClickGit() {
-      location.href = `https://github.com/staten-island-tech/html-css-mastery-project-repository-dontcallmebread`;
+    onClickSite: function() {
+      window.open("https://youthful-ride-d607dc.netlify.app/", "_blank");
     },
-    onClickSite() {
-      location.href = `https://youthful-ride-d607dc.netlify.app/`;
+    onClickGit: function() {
+      window.open(
+        "https://github.com/staten-island-tech/html-css-mastery-project-repository-dontcallmebread",
+        "_blank"
+      );
     }
   }
 };

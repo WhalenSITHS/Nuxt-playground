@@ -2,17 +2,11 @@
   <div>
     <v-container class="container">
       <h1 align-self="center" data-aos="fade-up">What We Do</h1>
-      <v-row
-        data-aos="flip-up"
-        class="row light-blue darken-4"
-        align-content="center"
-      >
+      <v-row data-aos="flip-up" class="row light-blue darken-4" align-content="center">
         <v-col class="col" cols="12" md="4">
           <h2>Front-End Development</h2>
 
-          <p>
-            Students learn industry standard HTML, SCSS and JavaScript skills
-          </p>
+          <p>Students learn industry standard HTML, SCSS and JavaScript skills</p>
           <v-btn class="btn" color="primary">Learn More</v-btn>
         </v-col>
         <v-col cols="12" md="4" class="col">

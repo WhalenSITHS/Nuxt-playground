@@ -26,9 +26,9 @@
                 text
                 color="light-green darken-4"
                 active-class="no-active"
-                @click="onClickSite"
+                @click="onClickSite()"
               >Visit</v-btn>
-              <v-btn @click="onClickGit" text color="light-green darken-4">Github</v-btn>
+              <v-btn @click="onClickGit()" text color="light-green darken-4">Github</v-btn>
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
@@ -46,11 +46,14 @@
 <script>
 export default {
   methods: {
-    onClickGit() {
-      location.href = `https://github.com/melkadze/jack-twentyone`;
+    onClickSite: function() {
+      window.open(
+        "https://melkadze.com/jack-twentyone/dist/index.html",
+        "_blank"
+      );
     },
-    onClickSite() {
-      location.href = `https://melkadze.com/jack-twentyone/dist/index.html`;
+    onClickGit: function() {
+      window.open("https://github.com/melkadze/jack-twentyone", "_blank");
     }
   }
 };

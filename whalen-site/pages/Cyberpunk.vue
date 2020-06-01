@@ -22,8 +22,13 @@
 
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn text color="blue accent-2" active-class="no-active" @click="onClickSite">Visit</v-btn>
-              <v-btn @click="onClickGit" text color="blue accent-2">Github</v-btn>
+              <v-btn
+                text
+                color="blue accent-2"
+                active-class="no-active"
+                @click="onClickSite()"
+              >Visit</v-btn>
+              <v-btn @click="onClickGit()" text color="blue accent-2">Github</v-btn>
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
@@ -41,11 +46,11 @@
 <script>
 export default {
   methods: {
-    onClickGit() {
-      location.href = `https://github.com/kaly955/Tokyo`;
+    onClickSite: function() {
+      window.open("https://weebtime.netlify.app/#", "_blank");
     },
-    onClickSite() {
-      location.href = `https://weebtime.netlify.app/#`;
+    onClickGit: function() {
+      window.open("https://github.com/kaly955/Tokyo", "_blank");
     }
   }
 };
@@ -95,7 +100,7 @@ li {
   .card-text {
     width: 100%;
   }
-  h2{
+  h2 {
     font-size: 2.5rem;
   }
 }

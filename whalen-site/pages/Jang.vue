@@ -44,9 +44,9 @@
                 text
                 color="light-green darken-4"
                 active-class="no-active"
-                @click="onClickSite"
+                @click="onClickSite()"
               >Visit</v-btn>
-              <v-btn @click="onClickGit" text color="light-green darken-4">Github</v-btn>
+              <v-btn @click="onClickGit()" text color="light-green darken-4">Github</v-btn>
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
@@ -64,11 +64,11 @@
 <script>
 export default {
   methods: {
-    onClickGit() {
-      location.href = `https://github.com/cdugo/jang-foodcart`;
+    onClickSite: function() {
+      window.open("https://jang-food.herokuapp.com/", "_blank");
     },
-    onClickSite() {
-      location.href = `https://jang-food.herokuapp.com/`;
+    onClickGit: function() {
+      window.open("https://github.com/cdugo/jang-foodcart", "_blank");
     }
   }
 };
