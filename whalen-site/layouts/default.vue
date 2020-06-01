@@ -41,10 +41,10 @@
             <nuxt-link class="route nuxt-link" to="/Resources">Resources</nuxt-link>
           </v-list-item>
           <v-list-item class="white my-4">
-            <nuxt-link class="route nuxt-link" to="/studentwork">What I'm Learning</nuxt-link>
+            <nuxt-link class="route nuxt-link" to="/home">What I'm Learning</nuxt-link>
           </v-list-item>
           <v-list-item class="white my-4">
-            <nuxt-link class="route nuxt-link" to="/studentwork">Curriculum</nuxt-link>
+            <nuxt-link class="route nuxt-link" to="/home">Curriculum</nuxt-link>
           </v-list-item>
         </v-list-item-group>
       </v-list>
