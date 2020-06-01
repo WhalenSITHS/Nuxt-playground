@@ -13,7 +13,9 @@
       <nuxt-link class="nuxt-link" to="/studentwork">
         <v-btn outlined class="btn" active-class="no-active">Student Work</v-btn>
       </nuxt-link>
-      <v-btn outlined class="btn" active-class="no-active">Resources</v-btn>
+      <nuxt-link class="nuxt-link" to="/Resources">
+        <v-btn outlined class="btn" active-class="no-active">Resources</v-btn>
+      </nuxt-link>
       <v-btn outlined class="btn" active-class="no-active">What I'm Learning</v-btn>
       <v-btn outlined active-class="no-active" class="btn">Curriculum</v-btn>
     </v-app-bar>
@@ -36,7 +38,7 @@
             <nuxt-link class="route nuxt-link" to="/studentwork">Student Work</nuxt-link>
           </v-list-item>
           <v-list-item class="white my-4">
-            <nuxt-link class="route nuxt-link" to="/studentwork">Resources</nuxt-link>
+            <nuxt-link class="route nuxt-link" to="/Resources">Resources</nuxt-link>
           </v-list-item>
           <v-list-item class="white my-4">
             <nuxt-link class="route nuxt-link" to="/studentwork">What I'm Learning</nuxt-link>
