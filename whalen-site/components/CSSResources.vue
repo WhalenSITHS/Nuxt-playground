@@ -138,6 +138,10 @@ h1 {
   padding: 1rem;
   width: 100%;
   height: 20rem;
+  transition: 0.3s;
+}
+.custom-card:hover {
+  transform: scale(1.1);
 }
 .row {
   margin: 1rem auto;
