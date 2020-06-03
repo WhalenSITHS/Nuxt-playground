@@ -19,9 +19,7 @@
         <v-card raised class="d-inline-block mx-auto custom-card">
           <img class="card-logo" src="../assets/logos/flexbox-cheat.png" />
           <v-card-title class="font-weight-light">Flexbox Cheatsheat</v-card-title>
-          <v-card-text
-            class="card-text"
-          >Flexbox is an incredible tool for modern web design. This resource will assist with the various flex properties</v-card-text>
+          <v-card-text class="card-text">This resource will assist with the various flex properties</v-card-text>
           <v-btn @click="onClickFlexCheat()" text color="#03A9F4">Check It Out</v-btn>
         </v-card>
       </v-col>
@@ -32,7 +30,49 @@
           <v-card-title class="font-weight-light">30 CSS Selectors</v-card-title>
           <v-card-text
             class="card-text"
-          >This a great resource of various CSS selectors that you may find sueful in a pinch</v-card-text>
+          >This a great resource of various CSS selectors that you may find useful in a pinch</v-card-text>
+          <v-btn @click="onClickTutplus()" text color="#03A9F4">Visit</v-btn>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="12" md="3">
+        <v-card raised class="d-inline-block mx-auto custom-card">
+          <img class="card-logo" src="../assets/logos/mdn.svg" />
+          <v-card-title class="font-weight-light">Clippy</v-card-title>
+          <v-card-text class="card-text">Easily create CSS clip paths with a handy GUI.</v-card-text>
+          <v-btn @click="onClickMDN()" text color="#03A9F4">Check Them Out</v-btn>
+        </v-card>
+      </v-col>
+
+      <v-col cols="12" md="3">
+        <v-card raised class="d-inline-block mx-auto custom-card">
+          <img class="card-logo" src="../assets/logos/flexbox-cheat.png" />
+          <v-card-title class="font-weight-light">Cubic Bezier</v-card-title>
+          <v-card-text class="card-text">Cubic Bezier can help you nail down animation timings.</v-card-text>
+          <v-btn @click="onClickFlexCheat()" text color="#03A9F4">Check It Out</v-btn>
+        </v-card>
+      </v-col>
+
+      <v-col cols="12" md="3">
+        <v-card raised class="d-inline-block mx-auto custom-card">
+          <img class="card-logo" src="../assets/logos/Sass Logo (Color).png" />
+          <v-card-title class="font-weight-light">
+            SCSS
+            <br />
+Documentation
+          </v-card-title>
+          <v-card-text class="card-text">Offical SCSS documentation for your referance.</v-card-text>
+          <v-btn @click="onClickTutplus()" text color="#03A9F4">Visit</v-btn>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="12">
+        <v-card raised class="d-inline-block mx-auto custom-card">
+          <img class="card-logo" src="../assets/logos/Sass Logo (Color).png" />
+          <v-card-title class="font-weight-light">CSS Tricks</v-card-title>
+          <v-card-text class="card-text">Great blog with amazing contributions for web development.</v-card-text>
           <v-btn @click="onClickTutplus()" text color="#03A9F4">Visit</v-btn>
         </v-card>
       </v-col>
