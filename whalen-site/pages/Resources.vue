@@ -77,7 +77,7 @@ h1 {
   margin: 5px auto;
   display: block;
 }
-@media screen and (max-width: 1264px) {
+@media screen and (max-width: 1300px) {
   .v-card__title {
     font-size: 1rem;
   }
