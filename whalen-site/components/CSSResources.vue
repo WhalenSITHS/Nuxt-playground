@@ -38,19 +38,19 @@
     <v-row>
       <v-col cols="12" md="3">
         <v-card raised class="d-inline-block mx-auto custom-card">
-          <img class="card-logo" src="../assets/logos/mdn.svg" />
+          <img class="card-logo" src="../assets/logos/css-5.svg" />
           <v-card-title class="font-weight-light">Clippy</v-card-title>
           <v-card-text class="card-text">Easily create CSS clip paths with a handy GUI.</v-card-text>
-          <v-btn @click="onClickMDN()" text color="#03A9F4">Check Them Out</v-btn>
+          <v-btn @click="onClickClippy()" text color="#03A9F4">Check Them Out</v-btn>
         </v-card>
       </v-col>
 
       <v-col cols="12" md="3">
         <v-card raised class="d-inline-block mx-auto custom-card">
-          <img class="card-logo" src="../assets/logos/flexbox-cheat.png" />
+          <img class="card-logo" src="../assets/logos/html5.svg" />
           <v-card-title class="font-weight-light">Cubic Bezier</v-card-title>
           <v-card-text class="card-text">Cubic Bezier can help you nail down animation timings.</v-card-text>
-          <v-btn @click="onClickFlexCheat()" text color="#03A9F4">Check It Out</v-btn>
+          <v-btn @click="onClickCubicBezier()" text color="#03A9F4">Check It Out</v-btn>
         </v-card>
       </v-col>
 
@@ -59,21 +59,20 @@
           <img class="card-logo" src="../assets/logos/Sass Logo (Color).png" />
           <v-card-title class="font-weight-light">
             SCSS
-            <br />
-Documentation
+            <br />Documentation
           </v-card-title>
           <v-card-text class="card-text">Offical SCSS documentation for your referance.</v-card-text>
-          <v-btn @click="onClickTutplus()" text color="#03A9F4">Visit</v-btn>
+          <v-btn @click="onClickSCSS()" text color="#03A9F4">Visit</v-btn>
         </v-card>
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="12">
+      <v-col cols="12" md="6">
         <v-card raised class="d-inline-block mx-auto custom-card">
-          <img class="card-logo" src="../assets/logos/Sass Logo (Color).png" />
+          <img class="card-logo" src="../assets/logos/css-tricks.png" />
           <v-card-title class="font-weight-light">CSS Tricks</v-card-title>
           <v-card-text class="card-text">Great blog with amazing contributions for web development.</v-card-text>
-          <v-btn @click="onClickTutplus()" text color="#03A9F4">Visit</v-btn>
+          <v-btn @click="onClickCSSTricks()" text color="#03A9F4">Visit</v-btn>
         </v-card>
       </v-col>
     </v-row>
@@ -96,6 +95,18 @@ export default {
       window.open(
         "https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048"
       );
+    },
+    onClickSCSS: function() {
+      window.open("https://sass-lang.com/documentation");
+    },
+    onClickClippy: function() {
+      window.open("https://bennettfeely.com/clippy/");
+    },
+    onClickCSSTricks: function() {
+      window.open("https://css-tricks.com/");
+    },
+    onClickCubicBezier: function() {
+      window.open("https://cubic-bezier.com/#.17,.67,.83,.67");
     }
   }
 };
@@ -116,6 +127,11 @@ h1 {
   margin: 5px auto;
   display: block;
 }
+@media screen and (max-width: 1264px) {
+  .v-card__title {
+    font-size: 1rem;
+  }
+}
 .custom-card {
   margin: 2rem 1rem auto;
   text-align: center;
@@ -124,7 +140,7 @@ h1 {
   height: 20rem;
 }
 .row {
-  margin: 6rem auto;
+  margin: 1rem auto;
   padding: 3rem 0;
   width: 90vw;
   display: flex;

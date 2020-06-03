@@ -77,6 +77,11 @@ h1 {
   margin: 5px auto;
   display: block;
 }
+@media screen and (max-width: 1264px) {
+  .v-card__title {
+    font-size: 1rem;
+  }
+}
 .custom-card {
   margin: 2rem 1rem auto;
   text-align: center;
