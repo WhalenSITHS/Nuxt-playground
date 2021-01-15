@@ -11,18 +11,18 @@
             <sub-header>Created By</sub-header>
             <v-divider></v-divider>
             <v-list>
-              <li>
+              <p>
                 William Anderson
                 <span class="span">CUNY Hunter 2024</span>
-              </li>
-              <li>
+              </p>
+              <p>
                 Kai Tong Gao
                 <span class="span">Cornell 2024</span>
-              </li>
-              <li>
+              </p>
+              <p>
                 Sarah Abdel Fatah
                 <span class="span">CUNY 2024</span>
-              </li>
+              </p>
               <li>
                 Winny Chan
                 <span class="span">CUNY 2024</span>
